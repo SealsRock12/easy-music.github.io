@@ -1,0 +1,14 @@
+This app is licensed under the
+      <a href="https://en.wikipedia.org/wiki/MIT_License" target="_blank"
+        >MIT License</a
+      >. This means that you can reuse the contents of the app, but you must put
+      the following: <br /><br />
+      <code style="text-align: center">
+        Copyright (c) 2021 EasyMusic:
+        <a
+          href="https://github.com/easy-music/easy-music.github.io"
+          target="_blank"
+        >
+          https://github.com/easy-music/easy-music.github.io
+        </a>
+      </code>

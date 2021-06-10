@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EasyMusic - View</title>
+    <link rel="icon" href="../img/icon.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
+    />
+  </head>
+
+  <body>
+    <div id="page-switcher">
+      <a href="/" class="page-switcher-link">Home</a> |
+      <a href="/listen-to-music" class="page-switcher-link">Listen to Music</a>
+      | <a href="/view-music" class="page-switcher-link">View Music</a> |
+      <a href="/info" class="page-switcher-link">Info</a> |
+      <a href="/music-quiz/" class="page-switcher-link">Music Quiz</a>
+    </div>
+
+    <h1 id="title">View Music</h1>
+    <h4 id="subtitle">Choose the composer</h4>
+
+    <div id="music-options">
+      <button
+        class="music-button"
+        onclick="window.location.href = '/view-music'"
+      >
+        All
+      </button>
+      <button
+        class="music-button"
+        onclick="window.location.href = '/view-music/beethoven'"
+      >
+        Beethoven
+      </button>
+      <button
+        class="music-button"
+        onclick="window.location.href = '/view-music/chopin'"
+      >
+        Chopin
+      </button>
+      <button
+        class="music-button"
+        onclick="window.location.href = '/view-music/debussy'"
+      >
+        Debussy
+      </button>
+      <button
+        class="music-button"
+        onclick="window.location.href = '/view-music/khachaturian'"
+      >
+        Khachaturian
+      </button>
+      <button
+        class="music-button"
+        onclick="window.location.href = '/view-music/mozart'"
+      >
+        Mozart
+      </button>
+      <button
+        class="music-button"
+        onclick="window.location.href = '/view-music/ravel'"
+      >
+        Ravel
+      </button>
+      <button
+        class="music-button"
+        onclick="window.location.href = '/view-music/rossini'"
+      >
+        Rossini
+      </button>
+      <button
+        class="music-button"
+        onclick="window.location.href = '/view-music/tchaikovsky'"
+      >
+        Tchaikovsky
+      </button>
+      <button
+        class="music-button"
+        onclick="window.location.href = '/view-music/vivaldi'"
+      >
+        Vivaldi
+      </button>
+    </div>
+
+    <!-- Parent of the images -->
+    <div id="display-img-parent">
+      <img
+        src="../img/composer-img/beethoven.jpg"
+        alt="beethoven-img"
+        class="display-img"
+        onclick="go_to_composer('beethoven')"
+      />
+      <img
+        src="../img/composer-img/chopin.jpg"
+        alt="chopin-img"
+        class="display-img"
+        onclick="go_to_composer('chopin')"
+      />
+      <img
+        src="../img/composer-img/debussy.jpg"
+        alt="chopin-img"
+        class="display-img"
+        onclick="go_to_composer('debussy')"
+      />
+      <img
+        src="../img/composer-img/khachaturian.jpg"
+        alt="khachaturian-img"
+        class="display-img"
+        onclick="go_to_composer('khachaturian')"
+      />
+      <img
+        src="../img/composer-img/mozart.jpg"
+        alt="mozart-img"
+        class="display-img"
+        onclick="go_to_composer('mozart')"
+      />
+      <img
+        src="../img/composer-img/ravel.jpg"
+        alt="ravel-img"
+        class="display-img"
+        onclick="go_to_composer('ravel')"
+      />
+      <img
+        src="../img/composer-img/rossini.jpg"
+        alt="rossini-img"
+        class="display-img"
+        onclick="go_to_composer('rossini')"
+      />
+      <img
+        src="../img/composer-img/tchaikovsky.jpg"
+        alt="tchaikovsky-img"
+        class="display-img"
+        onclick="go_to_composer('tchaikovsky')"
+      />
+      <img
+        src="../img/composer-img/vivaldi.jpg"
+        alt="vivaldi-img"
+        class="display-img"
+        onclick="go_to_composer('vivaldi')"
+      />
+    </div>
+  </body>
+</html>

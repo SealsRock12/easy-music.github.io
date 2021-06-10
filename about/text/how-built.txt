@@ -1,0 +1,9 @@
+I used HTML/CSS/JS for this project. The hosting is done by
+      <a href="https://github.io" target="_blank">Github</a>. This project
+      started on May 24, 2021. The source code can be found
+      <a
+        href="https://github.com/easy-music/easy-music.github.io"
+        target="_blank"
+        class="blue-link"
+        >here</a
+      >.

@@ -1,0 +1,26 @@
+- Audio player inspiration from Brad Traversy:
+<br><br>
+      <code style="text-align: center">
+        <a
+          href="https://github.com/bradtraversy/vanillawebprojects/tree/master/music-player"
+          target="_blank"
+        >
+          https://github.com/bradtraversy/vanillawebprojects/tree/master/music-player
+        </a>
+      </code>
+
+<br><br><br>
+- Settings button animation inspired by:
+
+      <code style="text-align: center">
+        <a
+          href="https://www.amctrainer.com/"
+          target="_blank"
+        >
+          https://www.amctrainer.com/
+        </a>
+      </code>
+<br><br><br>
+- YouTube music for the audio in the <a href="/listen-to-music" target="blank">listen to music page</a>.
+<br><br><br>
+- <a href="https://imslp.org/wiki/Main_Page" target="_blank">IMSLP</a> and <a href="https://musescore.org/en" target="_blank">Musescore</a> for the sheet music in the <a href="/view-music" target="blank">view music page</a>.

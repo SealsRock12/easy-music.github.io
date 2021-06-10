@@ -1,0 +1,5 @@
+for (i=1; i<9; i++){
+​
+​
+    document.querySelector(`#option-2-${i}`).click()
+}

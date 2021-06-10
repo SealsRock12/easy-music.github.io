@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EasyMusic - Settings</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="../img/icon.png" />
+    <script src="script.js" defer></script>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="page-switcher">
+      <a href="/" class="page-switcher-link">Home</a> |
+      <a href="/listen-to-music" class="page-switcher-link">Listen to Music</a>
+      | <a href="/view-music" class="page-switcher-link">View Music</a> |
+      <a href="/info" class="page-switcher-link">Info</a> |
+      <a href="/music-quiz/" class="page-switcher-link">Music Quiz</a>
+    </div>
+
+    <h1 id="title">Settings</h1>
+
+    <div id="theme">
+      <h2 style="font-size: 40px" class="setting-name">Theme:</h2>
+      <div id="theme-color-div">
+        <input type="color" name="theme-color" id="theme-color" />
+      </div>
+    </div>
+
+    <div id="font">
+      <h2 style="font-size: 40px" class="setting-name">Font:</h2>
+      <select id="font-option">
+        <option value="fira-sans" id="fira-sans-label">Fira Sans</option>
+        <option value="open-sans" id="open-sans-label">Open Sans</option>
+        <option value="oswald" id="oswald-label">Oswald</option>
+        <option value="roboto-mono" id="roboto-mono-label">Roboto Mono</option>
+        <option value="montserrat" id="montserrat-label">Montserrat</option>
+        <option value="raleway" id="raleway-label">Raleway</option>
+      </select>
+    </div>
+
+    <div id="save-button-div">
+      <button id="save-button" onclick="save_settings()">SAVE</button>
+      <button id="reset-button" onclick="reset_settings()">RESET</button>
+    </div>
+
+    <div id="back">
+      <button id="back-button" onclick="window.location.href = '/'">
+        <i class="fas fa-arrow-left"></i> BACK
+      </button>
+    </div>
+  </body>
+</html>

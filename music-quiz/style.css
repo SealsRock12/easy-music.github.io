@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+html {
+  font-family: "Fira Sans", sans-serif;
+}
+
+.page-switcher-link {
+  padding-top: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+#title,
+#subtitle,
+.main {
+  text-align: center;
+}
+
+#start {
+  text-align: center;
+  vertical-align: middle;
+}
+
+#title {
+  font-size: 45px;
+}
+
+#subtitle {
+  font-size: 20px;
+}
+
+#start-button {
+  width: 200px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 5px;
+  border: 2px solid #5543cf;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 40px;
+  padding: 10px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #0066ff;
+}
+
+#start-button:hover {
+  transition: 0.5s ease;
+  background-color: rgb(35 65 100);
+}
+
+.problem-options {
+  font-weight: bold;
+}
+
+.problem {
+  font-family: "Roboto", sans-serif;
+  white-space: pre;
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.problem-choice {
+  text-align: center;
+}
+
+#submit-button {
+  margin-top: 50px;
+  font-weight: bolder;
+  background-color: rgb(27, 54, 93);
+  color: white;
+  width: 120px;
+  height: 42px;
+  font-size: 21px;
+  transition: 0.5s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+#submit-button:hover {
+  transition: 0s ease;
+  background-color: rgb(35 65 100);
+}
+
+#submit {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.problem-result {
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  margin: 30px;
+  display: block;
+  background: #e9e9ed;
+  border-radius: 5px;
+  transition: 0.5s;
+  border-top: solid 10px #85b8c7;
+  box-shadow: 0px 10px 10px #85b8c7;
+}
+
+.fa-check {
+  color: #40c51f;
+  font-size: 100px;
+  padding-left: 20px;
+}
+
+.fa-times {
+  color: #ce2121;
+  font-size: 100px;
+  padding-left: 20px;
+}
+
+#results-h1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+#results-h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.check-heading,
+.times-heading {
+  text-align: center;
+}
+
+.font-awesome-icon {
+  text-align: center;
+}
+
+#sticky-parent {
+  position: sticky;
+  top: 0;
+}
+
+#sticky {
+  display: inline-block;
+  position: absolute;
+  padding-right: 18px;
+  margin: 10px;
+  background-color: #74eb56e3;
+  border-radius: 10px;
+}
+
+.section-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
